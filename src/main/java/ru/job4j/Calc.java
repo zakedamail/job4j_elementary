@@ -6,8 +6,6 @@ public class Calc {
         System.out.println(mem);
         short size = 1;
         System.out.println(size);
-//        int length = 100500;
-//        System.out.println(length);
         long money = 900500;
         System.out.println(money);
         float weight = 1.05F;
