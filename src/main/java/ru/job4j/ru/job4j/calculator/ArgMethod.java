@@ -26,4 +26,5 @@ public class ArgMethod {
         ArgMethod.hello(age);
         ArgMethod.hello(age, name);
     }
+
 }
