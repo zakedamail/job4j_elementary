@@ -32,5 +32,25 @@ public class Converter {
         System.out.println("600 rubles is " + dollars + " dollars.");
         dollars = Converter.euroToDollar(18);
         System.out.println("18 euro is " + dollars + " dollars.");
+        float in = 176;
+        float expected = 2;
+        float out = Converter.rubleToEuro(in);
+        boolean passed = expected == out;
+        System.out.println("140 rubles are 2. Test result : " + passed);
+        float in1 = 17;
+        double expected1 = 13.6;
+        float out1 = Converter.dollarToEuro(in1);
+        boolean passed1 = expected == out;
+        System.out.println("17 dollars are 13.6. Test result : " + passed1);
+        float in2 = 600;
+        double expected2 = 7.894737;
+        float out2 = Converter.rubleToDollar(in2);
+        boolean passed2 = expected == out;
+        System.out.println("600 rubles are 7.894737. Test result : " + passed2);
+        float in3 = 18;
+        double expected3 = 21.6;
+        float out3 = Converter.euroToDollar(in3);
+        boolean passed3 = expected == out;
+        System.out.println("18 euro are 21.6. Test result : " + passed3);
     }
 }
