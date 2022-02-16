@@ -22,8 +22,4 @@ public class ConverterTest {
         float eps = 0.1f;
         Assert.assertEquals(expected, out, eps);
     }
-
-    @Test
-    public void whenConvert200RblThen3dot3333Dlr() {
-    }
 }
